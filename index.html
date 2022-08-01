@@ -22,34 +22,49 @@
               <label for="title">Filters</label>
 
               <div class="options">
-                <button>Brightness</button>
+                <button class="active">Brightness</button>
                 <button>Saturation</button>
                 <button>Saturation</button>
                 <button>Grayscale</button>
               </div>
-              
+
                 <div class="slider">
                   <div class="filter-info">
                     <p class="name">Brightness</p>
                     <p class="value">100%</p>
                   </div>
-
-
-
-
+                  <input type="range" value="100" min="0" max="200">
 
                 </div>
 
 
             </div>
-            <div class="roatate"></div>
+            <div class="roatate">
+              <label class="title"> Rotate & Flip</label>
+                <div class="options">
+                  <button><i class="fa-solid fa-rotate-left"></i></button>
+                  <button><i class="fa-solid fa-rotate-right"></i></button>
+                  <button><i class="bx bx-reflect-vertical"></i></button>
+                  <button><i class="bx bx-reflect-horizontal"></i></button>
+                </div>
+            </div>
 
           </div>
 
-          <div class="preview"></div>
+          <div class="preview">
+            <img src="image-placeholder.svg" alt="preview-img">
+          </div>
 
 
 
+      </div>
+
+      <div class="controls">
+        <button class="reset"> Reset Filters</button>
+        <div class="row">
+          <button class="choose"> Choose Image</button>
+          <button class="save"> Save Image</button>
+        </div>
       </div>
 
   </div>
