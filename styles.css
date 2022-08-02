@@ -72,3 +72,28 @@ body{
   background-color: #5337F0;
 }
 
+filter .slider{
+  margin-top: 12px;
+}
+
+.filter .slider .filter-info{
+  display: flex;
+  color: #464646;
+  font-size: 15px;
+  justify-content: space-between;
+}
+
+filter .slider input{
+  width: 100%;
+  height: 5px;
+  accent-color: #5337F0;
+}
+
+.panel .rotate{
+  margin-top: 16px;
+}
+
+.panel .rotate button{
+  width: calc(100% / 4 - 3px);
+}
+
